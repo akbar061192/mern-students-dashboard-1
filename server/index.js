@@ -13,7 +13,7 @@ app.use('/api/v1/students', studentRoutes);
 // app.use(bodyParser.json({ limit: '20mb', extended: true }));
 // app.use(bodyParser.urlencoded({ limit: '20mb', extended: true }));
 
-const CONNECTION_URL = 'mongodb+srv://akbar06:Americ6@studentdb.a9ur0go.mongodb.net/?retryWrites=true&w=majority';
+const CONNECTION_URL = 'mongodb+srv://akbar06:<password>@studentdb.a9ur0go.mongodb.net/?retryWrites=true&w=majority';
 
 const PORT = process.env.port || 5000;
 
